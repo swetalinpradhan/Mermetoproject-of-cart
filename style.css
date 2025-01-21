@@ -1,0 +1,159 @@
+.first-division{
+  height: 100vh;
+  position: relative;
+  
+}
+.Navbar1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 10px;
+
+  /* width: 100%; */
+  background-color: #fff;
+  
+}
+.container{
+  top: 0;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+
+}
+
+a{
+  text-decoration: none !important;
+}
+.allitems{
+  display: flex !important;
+  flex-direction: row ;
+  justify-content: space-between;
+  padding: 1%;
+  width: 30%;
+  
+}
+.navitem{
+  padding: 1%;
+  color: black;
+}
+.mermetologo{
+  display: flex !important;
+  flex-direction: row ;
+  justify-content: space-between;
+  align-items: center;
+}
+.allicons{
+  display: flex !important;
+  flex-direction: row ;
+  justify-content: space-between;
+  width: 10%;
+  
+}
+.navicon{
+  color: black;
+}
+/* ------banner section----------- */
+.rectimg{
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 2.5%;
+  position: relative;
+}
+/* -------3rd section--------- */
+.cardsec{
+width: 100%;
+display: flex !important;
+  flex-direction: row ;
+  justify-content: space-around;
+}
+.tablesec{
+  width: 60%;
+  
+}
+table{
+  width: 100%;
+  border-collapse: collapse;
+  
+}
+td{
+  text-align: center;
+}
+th,tr{
+  padding: 9px;
+}
+
+.secondcarddiv{
+  margin-top: 5%;
+  margin-bottom: 7%;
+  /* background-color: white; */
+}
+.tableheaditems{
+  background-color:#f9f7e1 ;
+ 
+}
+.timg{
+  width: 50px;
+  padding: 25px;
+}
+.dimg{
+  width: 20px;
+}
+.deletebtn{
+  /* border: none; */
+}
+
+.carddet{
+  width: 250px;
+  background-color: #f9f7e1;
+  padding: 4%;
+  display: flex !important;
+  flex-direction: column ;
+  align-items: center;
+  border-radius: 5px;
+
+}
+.cardhead{
+  font-size: 20px;
+  font-weight: 600;
+}
+.calc{
+  display: flex !important;
+  flex-direction: row ;
+  justify-content: space-around;
+ 
+}
+.chekbtn{
+  padding: 5px;
+}
+.sub-tot{
+  width: 100%;
+}
+/* -----------final section-------- */
+.finalsec{
+  height: 200px;
+  background-color: #FAF3EA;
+  display: flex !important;
+  flex-direction: row ;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.imagepara{
+  display: flex !important;
+  flex-direction: row ;
+  justify-content: space-around;
+  align-items: center;
+  width: 20%;
+}
+.high{
+  color: black;
+  font-weight: 600;
+}
+.craft{
+  color: gray !important;
+}
+.finalimg{
+  height: 60px;
+}
